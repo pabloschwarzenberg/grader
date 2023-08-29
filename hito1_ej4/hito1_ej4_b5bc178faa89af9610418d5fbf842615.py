@@ -1,0 +1,5 @@
+a=int(input(">"))
+b=bin(a)
+c=str(b).split("b")
+d=int(c[1])
+print("resultado=",d)

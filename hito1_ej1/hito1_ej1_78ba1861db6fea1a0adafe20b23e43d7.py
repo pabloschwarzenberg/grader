@@ -1,0 +1,6 @@
+tarea = float(input("Cual fue tu nota en la tarea? "))
+inte = float(input("Nota de tus Interrogaciones? "))
+examen = float(input("Cual es la nota de tu examen? "))
+presen = float(input("Cual es la nota de tu Presentacion? "))
+promedio=(0.3*tarea+0.3*inte+0.3*examen+0.1*presen)
+print("Su promedio es ",round(promedio,1))

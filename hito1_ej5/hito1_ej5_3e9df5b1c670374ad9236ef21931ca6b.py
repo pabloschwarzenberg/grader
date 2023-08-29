@@ -1,0 +1,19 @@
+rut=int(input("Ingrese su rut:"))
+n1=(rut%10)
+n2=(rut%100)//10
+n3=(rut%1000)//100
+n4=(rut%10000)//1000
+n5=(rut%100000)//10000
+n6=(rut%1000000)//100000
+n7=(rut%10000000)//1000000
+n8=(rut%100000000)//10000000
+suma=(n1*2)+(n2*3)+(n3*4)+(n4*5)+(n5*6)+(n6*7)+(n7*2)+(n8*3)
+divi=int(suma/11)
+resto=(suma)-(11*divi)
+dv=(11-resto)
+if(dv==11):
+    print("dv=0")
+elif(dv==10):
+    print("dv=K")
+else:
+    print("dv=",dv,"")

@@ -1,0 +1,12 @@
+#Nota final
+Pt=eval(input( "Tareas: "))
+PT=round(Pt,1)
+Pi=eval(input( "Interrogaciones: "))
+PI=round(Pi,1)
+Ne=eval(input( "Examen: ")) 
+NE=round(Ne,1)
+Pp=eval(input( "Presentacion: "))
+PP=round(Pp,1)
+Nt=round((0.3*PT)+(0.3*PI)+(0.3*NE)+(0.1*PP))
+NT=round(Nt,1)
+print(NT)

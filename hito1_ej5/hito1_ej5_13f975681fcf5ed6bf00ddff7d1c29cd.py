@@ -1,0 +1,29 @@
+R=int(input("ingresar rut sin dv: "))
+A=R//10000000
+B=A*8
+C=R-A*10000000
+D=C//1000000
+E=D*9
+F=C-D*1000000
+G=F//100000
+L=G*4
+H=F-G*100000
+J=H//10000
+M=J*5
+K=H-J*10000
+N=K//1000
+W=N*6
+U=K-N*1000
+T=U//100
+Q=T*7
+Z=U-T*100
+X=Z//10
+I=X*8
+P=Z-X*10
+e=P*9
+s=B+E+L+M+W+Q+I+e
+a=s%11
+if (a==10):
+    print("dv=K")
+else:
+    print("dv=",a)

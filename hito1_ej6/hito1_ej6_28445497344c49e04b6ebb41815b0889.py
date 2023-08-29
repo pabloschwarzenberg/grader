@@ -1,0 +1,6 @@
+a=int(input())
+b=int(input())
+c=int(input())
+M=max(a,b,c)
+m=min(a,b,c)
+print(m,",",(a+b+c-m-M),",",M)

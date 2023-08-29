@@ -1,0 +1,8 @@
+print("ingrese sus nota: ")
+PT=float(input("PT = "))
+PI=float(input("PI = "))
+NE=float(input("NE = "))
+PP=float(input("PP = "))
+X=(0.3*PT + 0.3*PI + 0.3*NE + 0.1*PP)
+round(X)
+print("su promedio es: ",X)

@@ -1,0 +1,10 @@
+a=int(input())
+b=int(input())
+c=int(input())
+d=int(input())
+e=int(input())
+f=int(input())
+
+x=str((e*c-b*f)/(a*e-d*b))
+y=str((d*c-a*f)/(b*d-a*e))
+print("['x="+x+"','y="+y+"']")

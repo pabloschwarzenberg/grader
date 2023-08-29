@@ -1,0 +1,20 @@
+#Sistema de Ecuaciones
+x1=float(input("coeficiente de la primera incognita enla primera ecuación: "))
+x2=float(input("coeficiente de la segunda incognita enla primera ecuación: "))
+x3=float(input("número al que esta igualada la primera ecuación: "))
+x4=float(input("coeficiente de la primera incognita enla segunda ecuación: "))
+x5=float(input("coeficiente de la segunda incognita enla segunda ecuación: "))
+x6=float(input("número al que esta igualada la segunda ecuación: "))
+print(x1,"x+",x2,"y=",x3)
+print(x4,"x+",x5,"y=",x6)
+x7=(x4*-x1)
+x8=(x5*-x1)
+x9=(x6*-x1)
+x10=(x1+x7)
+x11=(x2+x8)
+x12=(x3+x9)
+print("y=",(x12/x11))
+x13=(x12/x11)
+x14=x3-x13*x2
+x15=x14/x1
+print("x=",(x15))

@@ -1,0 +1,40 @@
+#Cálculo del dígito verificador de un rut
+rut=int(input())
+if((rut//10000000)<10):
+  a1=((rut%100000000)-(rut%10000000))/10000000
+  b1=((rut%10000000)-(rut%1000000))/1000000
+  c1=((rut%1000000)-(rut%100000))/100000
+  d1=((rut%100000)-(rut%10000))/10000
+  e1=((rut%10000)-(rut%1000))/1000
+  f1=((rut%1000)-(rut%100))/100
+  h1=(rut%10)
+  g1=((rut%100)-h1)/10
+  Suma1=((h1*2)+(g1*3)+(f1*4)+(e1*5)+(d1*6)+(c1*7)+(b1*2)+(a1*3))
+  Division1=(Suma1//11)
+  Resto1=(Suma1-(11*Division1))
+  Resta1=11-(Resto1)
+  if(Resta1==11):
+    print("dv=0")
+  elif(Resta1==10):
+    print("dv=K")
+  elif(0<Resta1<10):
+    print("dv=",Resta1)
+    
+if((rut//10000000)<1):
+  a2=((rut%10000000)-(rut%1000000))/1000000
+  b2=((rut%1000000)- (rut%100000))/100000
+  c2=((rut%100000)-(rut%10000))/10000
+  d2=((rut%10000)-(rut%1000))/1000
+  e2=((rut%1000)-(rut%100))/100
+  g2=(rut%10)
+  f2=((rut%100)-g2)/10
+  Suma2=((g2*2)+(f2*3)+(e2*4)+(d2*5)+(c2*6)+(b2*7)+(a2*2))
+  Division2=(Suma2//11)
+  Resto2=(Suma2-(11*Division2))
+  Resta2=11-(Resto2)
+  if(Resta2==11):
+    print("dv=0")
+  elif(Resta2==10):
+    print("dv=K")
+  elif(0<Resta2<10):
+    print("dv=",Resta2)

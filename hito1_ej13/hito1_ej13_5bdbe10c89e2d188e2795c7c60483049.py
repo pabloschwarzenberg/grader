@@ -1,0 +1,83 @@
+#Factores Primos
+numero=eval(input("Ingresa un numero:"))
+x=[]
+while(numero%2==0):
+    numero=numero//2
+    x.append(2)
+while(numero%3==0):
+    numero=numero//3
+    x.append(3)
+while(numero%5==0):
+    numero=numero//5
+    x.append(5)
+while(numero%7==0):
+    numero=numero//7
+    x.append(7)
+while(numero%11==0):
+    numero=numero//11
+    x.append(11)
+while(numero%13==0):
+    numero=numero//13
+    x.append(13)
+while(numero%17==0):
+    numero=numero//17
+    x.append(17)
+while(numero%19==0):
+    numero=numero//19
+    x.append(19)
+while(numero%23==0):
+    numero=numero//23
+    x.append(23)
+while(numero%29==0):
+    numero=numero//29
+    x.append(29)
+while(numero%31==0):
+    numero=numero//31
+    x.append(31)
+while(numero%37==0):
+    numero=numero//37
+    x.append(37)
+while(numero%41==0):
+    numero=numero//41
+    x.append(41)
+while(numero%43==0):
+    numero=numero//43
+    x.append(43)
+while(numero%47==0):
+    numero=numero//47
+    x.append(47)
+while(numero%53==0):
+    numero=numero//53
+    x.append(53)
+while(numero%59==0):
+    numero=numero//59
+    x.append(59)
+while(numero%61==0):
+    numero=numero//61
+    x.append(61)
+while(numero%67==0):
+    numero=numero//67
+    x.append(67)
+while(numero%71==0):
+    numero=numero//71
+    x.append(71)
+while(numero%73==0):
+    numero=numero//73
+    x.append(73)
+while(numero%79==0):
+    numero=numero//79
+    x.append(79)
+while(numero%83==0):
+    numero=numero//83
+    x.append(83)
+while(numero%89==0):
+    numero=numero//89
+    x.append(89)
+while(numero%97==0):
+    numero=numero//97
+    x.append(97)
+while(numero%101==0):
+    numero=numero//101
+    x.append(101)
+
+print(x)

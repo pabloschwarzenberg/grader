@@ -1,0 +1,5 @@
+PT=eval(input("Ingresar calificación de tareas"))
+PI=eval(input("Ingresar calificación de interrograciones"))
+NE=eval(input("Ingresar calificación de examen"))
+Pp=eval(input("Ingresar calificación de presentación"))
+print("El promedio final es", round(0.3*PT+0.3*PI+0.3*NE+0.1*Pp, 1))

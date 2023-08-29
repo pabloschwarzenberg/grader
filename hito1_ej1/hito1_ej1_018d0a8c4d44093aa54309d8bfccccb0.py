@@ -1,0 +1,8 @@
+#Nota final
+pt= float(input())
+pi= float(input())
+ne= float(input())
+pp= float(input())
+promedio= (0.3*pt+0.3*pi+0.3*ne+0.1*pp)
+p1= round(promedio,1)
+print(str(p1))

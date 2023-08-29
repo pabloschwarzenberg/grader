@@ -1,0 +1,18 @@
+#Aprobación de créditos
+Ingreso = int(input("ingreso monetario:"))
+Edad = int(input("ingrese el año de nacimiento:"))
+Hijos = int(input("ingrese el numero de hijos:"))
+Banco = int(input("ingrese los años bancarios:"))
+EstadoCivil = int(input("ingrese el Estado Civil del cliente:"))
+Residencia = int(input("ingrese donde reside el cliente:"))
+
+if(banco > 10 and hijos >= 2)
+  print("APROBADO")
+if(estado civil == casado and hijos > 3 and edad > 45 or < 55)
+  print("APROBADO")
+if(ingreso > 2.500.000 and estado civil == soltero and residencia == cuidad)
+  print("APROBADO")
+if(ingreso > 3.500.000 and banco > 5)
+  print("APROBADO")
+if(residencia == campo and estado civil == casado and hijos < 2)
+  print("APROBADO")

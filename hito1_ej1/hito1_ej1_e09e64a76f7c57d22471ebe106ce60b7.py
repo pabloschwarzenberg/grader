@@ -1,0 +1,12 @@
+#Nota final
+# Solicitar al usuario que ingrese las notas
+PT = float(input("Ingrese la nota de Tareas (PT): "))
+PI = float(input("Ingrese la nota de Interrogaciones (PI): "))
+NE = float(input("Ingrese la nota de Examen (NE): "))
+PP = float(input("Ingrese la nota de Presentación (PP): "))
+
+# Calcular el promedio final
+promedio_final = 0.3 * PT + 0.3 * PI + 0.3 * NE + 0.1 * PP
+
+# Imprimir el resultado redondeado a un decimal
+print("El promedio final es:", round(promedio_final, 1))

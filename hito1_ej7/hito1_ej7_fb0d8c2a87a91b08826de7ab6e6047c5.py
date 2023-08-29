@@ -1,0 +1,77 @@
+#Zodiaco
+dia=int(input())
+mes=int(input())
+if(dia>=21):
+  if(3==mes):
+    print("Aries")
+if(1<=dia<=20):
+  if(4==mes):
+    print("Aries")
+if(dia>=21):
+  if(4==mes):
+    print("Tauro")
+if(1<=dia<=21):
+  if(5==mes):
+    print("Tauro")
+if(dia>=22):
+  if(5==mes):
+    print("Geminis")
+if(1<=dia<=21):
+  if(6==mes):
+    print("Geminis")
+if(dia>=22):
+  if(6==mes):
+    print("Cancer")
+if(1<=dia<=22):
+  if(7==mes):
+    print("Cancer")
+if(dia>=23):
+  if(7==mes):
+    print("Leo")
+if(1<=dia<=22):
+  if(8==mes):
+    print("Leo")
+if(dia>=23):
+  if(8==mes):
+    print("Virgo")
+if(1<=dia<=23):
+  if(9==mes):
+    print("Virgo")
+if(dia>=24):
+  if(9==mes):
+    print("Libra")
+if(1<=dia<=23):
+  if(10==mes):
+    print("Libra")
+if(dia>=24):
+  if(10==mes):
+    print("Scorpio")
+if(1<=dia<=22):
+  if(11==mes):
+    print("Scorpio")
+if(dia>=23):
+  if(11==mes):
+    print("Sagitario")
+if(1<=dia<=21):
+  if(12==mes):
+    print("Sagitario")
+if(dia>=22):
+  if(12==mes):
+    print("Capricornio")
+if(1<=dia<=20):
+  if(1==mes):
+    print("Capricornio")
+if(dia>=21):
+  if(1==mes):
+    print("Aquario")
+if(1<=dia<=19):
+  if(2==mes):
+    print("Aquario")
+if(dia>=20):
+  if(2==mes):
+    print("Picsis")
+if(1<=dia<=20):
+  if(3==mes):
+    print("Picsis")
+ 
+    

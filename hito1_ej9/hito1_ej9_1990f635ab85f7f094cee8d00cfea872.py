@@ -1,0 +1,15 @@
+#Sistema de Ecuaciones
+print("Resolucion de ecuacion")
+print("ax + by = ?")
+print("cx + ey = ?")
+a = float(input("Ingrese el valor de a: "))
+b = float(input("Ingrese el valor de b: "))
+Resultado_1 = float(input("Ingrese el resultado de ax + by: "))
+c = float(input("Ingrese el valor de cx: "))
+d = float(input("Ingrese el valor de dx: "))
+Resultado_2 = float(input("Ingrese el resultado de cx + dy: "))
+Valor_X = (Resultado_1 * d - b * Resultado_2)//(a * d - b * c)
+Valor_Y = (a * Resultado_2 - Resultado_1 * c)//(a * d - b * c)
+print("X = ", str(Valor_X))
+print("Y = ", str(Valor_Y))
+                                 

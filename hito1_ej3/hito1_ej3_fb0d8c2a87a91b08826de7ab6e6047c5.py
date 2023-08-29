@@ -1,0 +1,36 @@
+#Aprobación de créditos
+ingreso=int(input())
+adn=int(input())
+ndh=int(input())
+apb=int(input())
+esc=input()
+caoci=input()
+edad=-adn+2017
+if(apb>10):
+  if(ndh>=2):
+    print("APROBADO")
+  else:
+    print("RECHAZADO")
+if(esc=="C"):
+  if(ndh>3):
+    if(45<edad<55):
+      print("APROBADO")
+    else:
+      print("RECHAZODO")
+if(ingreso>2500000):
+  if(esc=="S"):
+    if(caoci=="U"):
+      print("APROBADO")
+    else:
+      print("RECHAZADO")
+if(ingreso>3500000):
+  if(apb>5):
+    print("APROBADO")
+  else:
+    print("RECHAZADO")
+if(caoci=="R"):
+  if(esc=="C"):
+    if(ndh<2):
+      print("APROBADO")
+    else:
+      print("RECHAZADO")

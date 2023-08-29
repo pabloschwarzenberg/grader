@@ -1,0 +1,9 @@
+x1 = eval(input())
+y1 = eval(input())
+n1 = eval(input())
+x2 = eval(input())
+y2 = eval(input())
+n2 = eval(input())
+x = ((y1*n2)-(y2*n1))/((x2*y1)-(x1*y2))
+y = (n2-(x2*x))/y2
+print("['x={}'. 'y={}']".format((round(x,1)), (round(y,1))))

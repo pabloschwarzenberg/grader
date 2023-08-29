@@ -1,0 +1,17 @@
+def contestar_llamada(numero, hora):
+    if hora >= 0 and hora < 7:
+        return True
+    elif hora < 14 and numero % 100 == 909:
+        return True
+    elif hora >= 17 and hora < 19 and numero // 1000000 == 877:
+        return True
+    else:
+        return False
+
+numero_telefono = int(input("Ingresa el número de teléfono (8 cifras): "))
+hora_llamada = int(input("Ingresa la hora de la llamada (0-23): "))
+
+if contestar_llamada(numero_telefono, hora_llamada):
+    print("CONTESTAR")
+else:
+    print("NO CONTESTAR")

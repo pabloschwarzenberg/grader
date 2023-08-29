@@ -1,0 +1,7 @@
+PT=float(input("tareas: "))
+PI=float(input("interrogaciones: "))
+NE=float(input("examens: "))
+PP=float(input("presentacion: "))
+promedio=float(0.3*PT+0.3*PI+0.3*NE+0.1*PP)
+NF=round(promedio,1)
+print(NF)      

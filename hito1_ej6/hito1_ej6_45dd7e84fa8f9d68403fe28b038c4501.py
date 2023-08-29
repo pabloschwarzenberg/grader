@@ -1,0 +1,10 @@
+#Ordenar tres números
+numero1=input("ingrese 1er número ")
+numero2=input("ingrese 2do número ")
+numero3=input("ingrese 3er número ")
+if(numero1>=numero2>=numero3): print(numero3,",",numero2,",",numero1)
+if(numero1>=numero3>=numero2): print(numero2,",",numero3,",",numero1)
+if(numero3>=numero1>=numero2): print(numero2,",",numero1,",",numero3)
+if(numero3>=numero2>=numero1): print(numero1,",",numero2,",",numero3)
+if(numero2>=numero1>=numero3): print(numero3,",",numero1,",",numero2)
+if(numero2>=numero3>=numero1): print(numero1,",",numero3,",",numero2)

@@ -1,0 +1,12 @@
+#Nota final
+print("ingresa la nota de las tareas")
+PT = float(input())
+print("ingresa la nota de interrogaciones")
+PI = float(input())
+print("ingresa la nota de sus examen")
+NE = float(input())
+print("ingresa la nota de presentacion")
+PP = float(input())
+promediofinal = (0.3 * PT) + (0.3 * PI) + (0.3 * NE) +  (0.1 * PP)
+promediofinal2 = round(promediofinal,1)
+print("tu promedio final es igual a:" , promediofinal2)  

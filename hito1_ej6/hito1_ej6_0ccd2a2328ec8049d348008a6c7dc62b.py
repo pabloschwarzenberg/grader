@@ -1,0 +1,7 @@
+print("ingrese 3 numeros enteros")
+x=int(input("ingrese valor de x"))
+y=int(input("igrese valor de y"))
+z=int(input("ingrese valor de z"))
+valores=(x,y,z)
+cs=sorted(valores)
+print("estos son los valores en orden",cs)

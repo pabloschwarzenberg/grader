@@ -1,0 +1,11 @@
+#Sistema de Ecuaciones
+a=int(input('Ingresa un numero'))
+b=int(input('Ingresa un numero'))
+c=int(input('Ingresa un numero'))
+d=int(input('Ingresa un numero'))
+e=int(input('Ingresa un numero'))
+f=int(input('Ingresa un numero'))
+x=((e*c-b*f)/(a*e-d*b))
+y=((a*f-c*d)/(e*a-b*d))
+print('x=',x)
+print('y=',y)

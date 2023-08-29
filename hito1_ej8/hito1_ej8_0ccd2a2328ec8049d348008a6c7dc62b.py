@@ -1,0 +1,11 @@
+numero=int(input("Ingrese un número de cuatro digitos: "))
+unidad=int(numero%10)
+print("unidad:",unidad,"U")
+decena=int(((numero%100)-unidad)/10)
+print("decena:",decena,"D")
+centena=int(((numero%1000)-(numero%100))/100)
+print("centena:",centena,"C")
+miles=int(((numero%10000)-(numero%1000))/1000)
+print("miles:",miles,"M")
+print("descomposicion:",miles,"M","+",centena,"C","+",decena,"D","+",unidad,"U")
+      

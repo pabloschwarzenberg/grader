@@ -1,0 +1,5 @@
+n1 = int(input("Escriba el 1er nuúmero: "))
+n2 = int(input("Escriba el 2do número: "))
+n3 = int(input("Escriba el 3er número: "))
+numeros = sorted([n1, n2, n3])
+print(numeros)

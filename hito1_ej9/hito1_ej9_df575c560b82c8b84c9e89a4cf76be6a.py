@@ -1,0 +1,12 @@
+#Sistema de Ecuaciones
+print("Las ecuaciones a resolver son de la forma:AX+BY=C, por lo tanto:")
+a=float(input("Inserte el valor de a1:"))
+b=float(input("Inserte el valor de b1:"))
+c=float(input("Inserte el valor de c1:"))
+d=float(input("Inserte el valor de a2:"))
+e=float(input("Inserte el valor de b2:"))
+f=float(input("Inserte el valor de c2:"))
+y=((a*f)-(d*c))/((a*e)-(d*b))
+x=((c-b*y)/a)
+print("x=",x)
+print("y=",y)

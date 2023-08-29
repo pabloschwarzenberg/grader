@@ -1,0 +1,10 @@
+#Sistema de Ecuaciones
+a= int(input())
+b= int(input())
+c= int(input())
+d= int(input())
+e= int(input())
+f= int(input())
+x= float((f-(e*c/b)/(d-c*a/b)
+ x1= round(x,1)
+print("x="+str(x1)+"")

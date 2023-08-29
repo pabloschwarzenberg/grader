@@ -1,0 +1,6 @@
+Tareas= float(input("ingrese nota de tareas"))
+Interrogaciones= float(input("ingrese nota de interrogaciones"))
+Examen= float(input("ingrese nota de examen"))
+Presentacion= float(input("ingrese nota de presentacion"))
+promedio= round(0.3*Tareas + 0.3*Interrogaciones + 0.3*Examen + 0.1*Presentacion, 1)
+print(promedio)

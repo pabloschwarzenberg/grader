@@ -1,0 +1,12 @@
+#Nota final
+pt=float(input())
+pi=float(input())
+ne=float(input())
+pp=float(input())
+w=pt*(3/10)
+x=pi*(3/10)
+y=ne*(3/10)
+z=pp*(1/10)
+suma=(w+x+y+z)
+r=round(suma,1)
+print(r)

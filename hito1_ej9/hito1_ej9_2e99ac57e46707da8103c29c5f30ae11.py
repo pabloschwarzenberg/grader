@@ -1,0 +1,10 @@
+t=float(input("ingrese valor de t"))
+g=float(input("ingrese valor de g"))
+i=float(input("ingrese valor de i"))
+p=float(input("ingrese valor de p"))
+q=float(input("ingrese valor de q"))
+n=float(input("ingrese valor de n"))
+
+x=(i*q-g*n)//(t*q-g*p)
+y=(t*n-i*p)//(t*q-g*p)
+print("X=" +str(x),"Y="+str(y))

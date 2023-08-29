@@ -1,0 +1,10 @@
+#Cajero Automático
+print("----------------Ingrese su rut----------------")
+rut = input()
+print("----------------Ingrese la clave----------------")
+clave = input()
+print("----------------SELECCIONE TIPO DE CUENTA----------------")
+print("1: Cuenta corriente")
+print("2: Cuenta vista")
+print("3: Cuenta ahorro")
+print("4: Cuenta CHQ")      

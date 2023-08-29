@@ -1,0 +1,7 @@
+PT=input()
+PI=input()
+NE=input()
+PP=input()
+promedio=0.3*float(PT)+0.3*float(PI)+0.3*float(NE)+0.1*float(PP)
+redondeo=round(promedio,1)
+print(redondeo)

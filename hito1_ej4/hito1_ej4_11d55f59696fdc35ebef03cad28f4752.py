@@ -1,0 +1,6 @@
+x = bin(eval(input()))
+x = list(x)
+del(x[0])
+del(x[0])
+x = "".join(x)
+print("resultado="+x)

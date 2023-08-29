@@ -1,0 +1,13 @@
+###Ejercicio 3
+print("a continuación se calculará su promedio final, por favor, presione enter...")
+z=eval(input("ingrese por favor su nota total en tareas:"))
+x=eval(input("ingrese por favor su nota total en interrogaciones:"))
+c=eval(input("ingrese por favor su nota total en el examen:"))
+f=eval(input("ingrese por favor su nota total en la presentacion:"))
+z=float(z)
+x=float(x)
+c=float(c)
+f=float(f)
+k =((0.3*z + 0.3*x + 0.3*c + 0.1*f))
+k= round(k,1)
+print(k)

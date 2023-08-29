@@ -1,0 +1,17 @@
+def numero_perfecto(a):
+  b=0
+  for i in range(1,a):
+    if (a%i == 0):
+      b+=i
+  if a==b:
+    return True
+  else:
+    return False
+
+if __name__ == "__main__":
+  a=int(input("introduzca un numero:"))
+   
+  if numero_perfecto(a)==True:
+    print("Perfecto")
+  else:
+    print("No es perfecto")

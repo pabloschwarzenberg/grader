@@ -1,0 +1,1 @@
+print("resultado="+'{0:b}'.format(int(input())))

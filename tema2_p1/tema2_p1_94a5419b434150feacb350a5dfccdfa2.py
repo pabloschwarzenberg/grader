@@ -1,0 +1,41 @@
+def es_primo(numero):
+
+  if numero >1:
+
+    a=0
+
+    div=2
+
+    while div<numero:
+
+      resto = numero%div
+
+      if resto==0:
+
+        a+=1
+
+      div+=1
+
+    if a==0:
+
+      return True
+
+    else:
+
+      return False
+
+  else:
+
+    return False
+
+
+
+try:
+
+  numero_ingreso = int(input("Ingrese número: "))
+
+  print(es_primo(numero_ingreso))
+
+except:
+  
+  print("Ingrese sólo número por favor")

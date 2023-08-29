@@ -1,0 +1,6 @@
+PT=float(input("Ingrese Notas de Tareas : "))
+PI=float(input("Ingrese Notas de Interrogantes : "))
+NE=float(input("Ingrese Notas de Examen : "))
+PP=float(input("Ingrese Notas de Presentación : "))
+NotaFinal=(0.3*PT+0.3*PI+0.3*NE+0.1*PP)
+print("Nota Final =","{0:.1f}".format(NotaFinal))

@@ -1,0 +1,64 @@
+#Zodiaco
+Dia=int(input("ingresar día: "))
+M=int(input("ingresar mes en numero: "))
+if(M==3):
+        if(21<=Dia<=30):
+             print("ARIES")
+        if(21>Dia>=1):
+             print("PISCIS")
+if(M==4):
+    if(21<=Dia<=30):
+        print("TAURO")
+    if(21>Dia>=1):
+        print("ARIES")
+if(M==5):
+    if(30>=Dia>21):
+        print("GEMINIS")
+    if(1<=Dia<=21):
+        print("TAURO")
+if(M==6):
+    if(1<=Dia<=21):
+        print("GEMINIS")
+    if(30>=Dia>21):
+        print("CANCER")
+if(M==7):
+    if(1<=Dia<=22):
+        print("CANCER")
+    if(22<Dia<=30):
+        print("LEO")
+if(M==8):
+    if(1<=Dia<=22):
+        print("LEO")
+    if(23<Dia<=30):
+        print("VIRGO")
+if(M==9):
+    if(1<=Dia<=23):
+       print("VIRGO")
+    if(23<Dia<=30):
+        print("LIBRA")
+if(M==10):
+     if(1<=Dia<=23):
+        print("LIBRA")
+     if (23<Dia<=30):
+         print("ESCOPION")
+if(M==11):
+    if(1<=Dia<=22):
+         print("ESCOPION")
+    if(22<Dia<=30):
+         print("SAGITARIO")
+if(M==12):
+    if(1<=Dia<=21):
+        print("SAGITARIO")
+    if(22<Dia<=30):
+        print("CAPRICORNIO")
+if(M==1):
+    if(1<=Dia<=20):
+        print("CAPRICORNIO")
+    if(21<Dia<=30):
+        print("ACUARIO")
+if(M==2):
+    if(1<=Dia<=19):
+        print("ACUARIO")
+    if(20<Dia<=30):
+        print("PISCIS")
+     

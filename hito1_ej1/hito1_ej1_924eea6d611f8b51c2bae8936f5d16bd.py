@@ -1,0 +1,6 @@
+a=float(input("ingrese el promedio de notas de las tareas:"))
+b=float(input("ingrese el promedio de notas de las interrogaciones:"))
+c=float(input("ingrese la nota del examen:"))
+d=float(input("ingrese la nota de la presentacion:"))
+p=round((a*0.3)+(b*0.3)+(c*0.3)+(d*0.1),1)
+print("El promedio de nota es de:",p)

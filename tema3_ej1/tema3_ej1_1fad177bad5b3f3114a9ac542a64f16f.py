@@ -1,0 +1,12 @@
+def suma_divisores(numero):
+    suma = 0
+    for i in range(1, numero):
+        if numero % i == 0:
+            suma += i
+    return suma, suma == numero
+
+if __name__ == "__main__":
+    num = int(input("Ingrese un número: "))
+    suma, es_primo = suma_divisores(num)
+    print("La suma de los divisores es:", suma)
+    print("Es primo:", es_primo)

@@ -1,0 +1,52 @@
+#Zodiaco
+dia=int(input("¿En qué día está de cumpleaños? "))
+mes=int(input("¿En qué número de mes está de cumpleaños? "))
+if(mes==2):
+  dia+=31
+elif(mes==3):
+  dia=dia+31+28
+elif(mes==4):
+  dia=dia+31+28+31
+elif(mes==5):
+  dia=dia+31+28+31+30
+elif(mes==6):
+  dia=dia+31+28+31+30+31
+elif(mes==7):
+  dia=dia+31+28+31+30+31+30
+elif(mes==8):
+  dia=dia+31+28+31+30+31+30+31
+elif(mes==9):
+  dia=dia+31+28+31+30+31+30+31+31
+elif(mes==10):
+  dia=dia+31+28+31+30+31+30+31+31+30
+elif(mes==11):
+  dia=dia+31+28+31+30+31+30+31+31+30+31
+elif(mes==12):
+  dia=dia+31+28+31+30+31+30+31+31+30+31+30
+if(dia<=20):
+    signo="capricornio"
+elif(dia<=50):
+    signo="acuario"
+elif(dia<=79):
+    signo="piscis"
+elif(dia<=110):
+    signo="aries"
+elif(dia<=141):
+    signo="tauro"
+elif(dia<=172):
+    signo="geminis"
+elif(dia<=203):
+    signo="cáncer"
+elif(dia<=234):
+    signo="leo"
+elif(dia<=266):
+    signo="virgo"
+elif(dia<=296):
+    signo="libra"
+elif(dia<=326):
+    signo="scorpio"
+elif(dia<=355):
+    signo="sagitario"
+else:
+    signo="capricornio"
+print(signo)

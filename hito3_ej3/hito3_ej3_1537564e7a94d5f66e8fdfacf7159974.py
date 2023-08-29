@@ -1,0 +1,14 @@
+class Taxon:
+    def __init__(self,categoria,nombre):
+        self.categoria=categoria
+        self.nombre=nombre
+        self.subcategorias=[]
+    def __str__(self):
+        return self.categoria,self.nombre
+    def incluir(self,categoria,nombre):
+        print(self.subcategorias+nombre)
+   
+    
+    
+        
+        

@@ -1,0 +1,5 @@
+n1=int(input("introdusca el primer numero: "))
+n2=int(input("introdusca el segundo numero: "))
+n3=int(input("introdusca el tercer numero: "))
+o=sorted([n1,n2,n3])
+print("los numero ordenados de menor a mayor son: ",o)

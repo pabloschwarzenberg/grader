@@ -1,0 +1,11 @@
+#Sistema de Ecuaciones
+u = float(input())
+n = float(input())
+c = float(input())
+r = float(input())
+a = float(input())
+k = float(input())
+x = (c*a-n*k)
+y = (u*k-c*r)
+print("y=",y)
+print("x=",x)

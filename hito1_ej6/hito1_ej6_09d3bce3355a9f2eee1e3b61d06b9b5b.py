@@ -1,0 +1,5 @@
+a=int(input("ingrese el primer número:"))
+b=int(input("iingrese el segundo valor:"))
+c=int(input("ingrese el tercer valor:"))
+t=sorted([a,b,c])
+print(t)

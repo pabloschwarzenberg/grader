@@ -1,0 +1,36 @@
+#Aprobación de créditos
+ingreso=int(input())
+anho=int(input())
+hijos=int(input())
+banco=int(input())
+estado=str(input())
+lugar=str(input())
+
+if(banco>10):
+  if(hijos>=2):
+    print("APROBADO")
+  else:
+    print("REPROBADO")
+if(estado=="C"):
+  if(hijos>=3):
+    if(45<anho<55):
+      print("APROBADO")
+  else:
+    print("REPROBADO")
+if(ingreso>2500000):
+  if(estado=="S"):
+    if(lugar=="U"):
+      print("APROBADO")
+  else:
+    print("REPROBADO")
+if(ingreso>3500000):
+  if(banco>5):
+    print("APROBADO")
+  else:
+    print("REPROBADO")
+if(lugar=="R"):
+  if(estado=="C"):
+    if(hijos<2):
+      print("APROBADO")
+  else:
+    print("REPROBADO")

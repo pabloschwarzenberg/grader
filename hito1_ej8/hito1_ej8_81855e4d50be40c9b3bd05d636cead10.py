@@ -1,0 +1,1 @@
+#No sé con cuál comando o técnica puedo seleccionar dígitos a partir de una sola introducción numérica

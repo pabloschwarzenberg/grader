@@ -1,0 +1,33 @@
+#Cajero Automático
+saldo_cuenta = 100000
+saldo_cajero = 1000000
+N = "N"
+while N == "N":
+    user = input("Ingrese su nombre de usuario :")
+    if user == "10334151":
+        #Asigna 2 intentos porque toma en cuenta el intento antes de entrar al ciclo
+        intentos = 2
+        password = input("Ingrese su clave :")
+        while password != "1803" and intentos > 0:
+            print("clave inválida")
+            intentos -= 1
+            password = input("Ingrese su clave :")
+        if intentos == 0:
+            print("tarjeta bloqueada")
+            N = "deiauwfueiwbf"
+        if password == "1803":
+            monto = int(input("Ingrese el monto a retirar :"))
+            while monto < 0 or monto > saldo_cuenta or monto % 5000 != 0:
+                print("monto no permitido")
+                monto = int(input("Ingrese el monto a retirar :"))
+            # Con el saldo de cuenta dado nunca se lograrán acabar los billetes de 5000
+            # así que no tengo que pensar jujujú
+            print("billetes 5000=",(int(monto/5000)))
+            print("billetes 10000=",0)
+            print("billetes 20000=",0)
+            saldo_cuenta -= monto
+            saldo_cajero -= monto
+            print("saldo cuenta =",saldo_cuenta)
+            print("saldo cajero =",saldo_cajero)
+            print("Si desea continuar presione 'N'")
+            N = input(">>> ")

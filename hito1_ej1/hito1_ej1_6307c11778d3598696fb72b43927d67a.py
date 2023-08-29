@@ -1,0 +1,6 @@
+pt = float(input("digite nota 'tareas' :"))
+pi = float(input("digite nota 'interrogantes' :"))
+ne = float(input("digite nota 'examen' :"))
+pp = float(input("digite nota 'presentancion' :"))
+promedio =round(0.3*pt + 0.3*pi + 0.3*ne + 0.1*pp,1)
+print(promedio)

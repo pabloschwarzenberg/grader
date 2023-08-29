@@ -1,0 +1,39 @@
+#Ordenar tres números
+a=int(input())
+b=int(input())
+c=int(input())
+
+if(a>b):
+  if(a>c):
+    if(b>c):
+      print(str(c)+","+str(b)+","+str(a))
+    elif(c>b):
+      print(str(b)+","+str(c)+","+str(a))
+if(b>a):
+  if(b>c):
+    if(c>a):
+      print(str(a)+","+str(c)+","+str(b))
+    elif(a>c):
+      print(str(c)+","+str(a)+","+str(b))
+if(c>a):
+  if(c>b):
+    if(a>b):
+      print(str(b)+","+str(a)+","+str(c))
+    elif(b>a):
+      print(str(a)+","+str(b)+","+str(c))
+
+if(a==b):
+  if(a>c):
+    print(str(c)+","+str(b)+","+str(a))
+  elif(c>a):
+    print(str(b)+","+str(a)+","+str(c))
+if(a==c):
+  if(a>b):
+    print(str(b)+","+str(a)+","+str(c))
+  elif(b>a):
+    print(str(a)+","+str(b)+","+str(c))
+if(b==c):
+  if(b>a):
+    print(str(a)+","+str(b)+","+str(c))
+  elif(a>b):
+    print(str(b)+","+str(a)+","+str(c))

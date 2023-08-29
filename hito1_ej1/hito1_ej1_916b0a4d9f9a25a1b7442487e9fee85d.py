@@ -1,0 +1,8 @@
+print("Nota Final")
+PT=float(input("Ingrese Nota Tareas:"))
+PI=float(input("Ingrese Nota Interrogaciones:"))
+NE=float(input("Ingrese Nota Exámen:"))
+PP=float(input("Ingrese Nota Presentación:"))
+promedio=(0.3*PT)+(0.3*PI)+(0.3*NE)+(0.1*PP)
+notaFinal=round(promedio,1)
+print("Su Nota Final es:",notaFinal)

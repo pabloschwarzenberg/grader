@@ -1,0 +1,13 @@
+print ("calculador de notas")
+print ("las notas deben ser ingresadas con un decimal")
+pt = float (input("ingrese nota de las tareas:")) 
+pi = float (input ("ingrese nota de las interrogaciones: ")) 
+ne = float (input ("ingrese notas de los examenes: "))
+pp = float (input("ingrese notas de las presentaciones: ")) 
+ptn= int (pt)
+pin= int (pi)
+nen= int (ne)
+ppn= int (pp)
+notafinal = (ptn+pin+nen+ppn)
+promedio = notafinal/4
+print ("su nota final es", promedio)

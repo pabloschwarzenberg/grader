@@ -1,0 +1,13 @@
+#Sistema de Ecuaciones
+a=int(input())
+b=int(input())
+c=int(input())
+d=int(input())
+e=int(input())
+f=int(input())
+x=((b*f - e*c) / (d*b - a*e))
+y=((c - a*x)/b)
+x2=str(x)
+y2=str(y)
+print ("x="+x2)
+print ("y="+y2)

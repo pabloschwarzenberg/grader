@@ -1,0 +1,7 @@
+print("ingresa a continiación las notas solicitadas")
+T=float(input("Nota de Tareas-->"))
+e=float(input("Nota de Exámen-->"))
+i=float(input("Nota de Interrogaciones-->"))
+p=float(input("Nota de presentación-->"))
+x=((T*0.3)+(e*0.3)+(i*0.3)+(p*0.1))
+print(x)

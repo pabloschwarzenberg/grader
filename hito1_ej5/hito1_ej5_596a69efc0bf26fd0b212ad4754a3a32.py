@@ -1,0 +1,41 @@
+#Cálculo del dígito verificador de un rut
+      x=float(input(print("ingrse su rut y le daremos su codigo verificador")))
+if(len(x)==8):
+  a=2*x[7]
+  s=3*x[6]
+  d=4*x[5]
+  f=5*x[4]
+  g=6*x[3]
+  h=7*x[2]
+  j=2*x[1]
+  k=3*x[0]
+  l=a+s+d+f+g+h+j+k
+  ñ=int(l)//11
+  z=int(l)-(11*ñ)
+  y=11-z
+  if(y==11):
+    print("dv=0")
+  elif(y==10):
+    print("dv=k")
+  else:
+    print("dv=",y)
+  print(a,s,d,f,g,h,j,k)
+  print(l,ñ,z,y)
+if(len(x)==7):
+  a=2*x[6]
+  s=3*x[5]
+  d=4*x[4]
+  f=5*x[3]
+  g=6*x[2]
+  h=7*x[1]
+  j=2*x[0]
+  l=a+s+d+f+g+h+j
+  ñ=int(l)//11
+  z=int(l)-(11*ñ)
+  y=11-z
+  if(y==11):
+    print("dv=0")
+  elif(y==10):
+    print("dv=k")
+  else:
+    print("dv=",y)

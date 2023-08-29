@@ -1,0 +1,6 @@
+pt=eval(input("ingrese la nota de tareas"))
+pl=eval(input("ingrese la nota de interrogantes"))
+ne=eval(input("ingrese la nota de examen"))
+pp=eval(input("ingrese la nota de presentacion"))
+F=(0.3*pt)+(0.3*pl)+(0.3*ne)+(0.1*pp)
+print("{0:.1f}".format(F))

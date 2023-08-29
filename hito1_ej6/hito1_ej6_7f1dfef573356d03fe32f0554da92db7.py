@@ -1,0 +1,6 @@
+n = int(input())
+m = int(input())
+x = int(input())
+d = (n,m,x)
+y = sorted(d)
+print (y)

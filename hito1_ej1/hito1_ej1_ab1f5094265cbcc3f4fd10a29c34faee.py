@@ -1,0 +1,5 @@
+pt=float(input("notas tareas: "))
+pi=float(input("notas interrogaciones: "))
+ne=float(input("notas examen: "))
+pp=float(input("notas presentacion: "))
+print("nota final =", (0.3*pt) + (0.3*pi) + (0.3*ne) + (0.1*pp))

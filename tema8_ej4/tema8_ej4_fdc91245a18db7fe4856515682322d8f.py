@@ -1,0 +1,46 @@
+def rot13(palabra):
+    resultado = ""
+    
+    for caracter in palabra:
+        if caracter.isalpha():
+            ascii_original = ord(caracter.lower())
+            ascii_encriptado = (ascii_original - 97 + 13) % 26 + 97
+            caracter_encriptado = chr(ascii_encriptado)
+            
+            if caracter.isupper():
+                caracter_encriptado = caracter_encriptado.upper()
+            
+            resultado += caracter_encriptado
+        else:
+            resultado += caracter
+    
+    return resultado
+
+if __name__ == "__main__":
+    palabra = input("Ingresa la palabra que quieras encriptar: ")
+    palabra = palabra.lower()
+    resultado = rot13(palabra)
+    print("El resultado es:", resultado)
+
+#Funcion buscarTodas
+def buscarTodas(a, b):
+    indices = []
+    inicio = 0
+    
+    while inicio < len(a):
+        indice = a.find(b, inicio)
+        
+        if indice == -1:
+            break
+        
+        indices.append(str(indice))
+        inicio = indice + 1
+    
+    return ' '.join(indices)
+
+if __name__ == "__main__":
+    a = input("Ingrese el string a: ")
+    b = input("Ingrese el string b: ")
+    
+    resultado = buscarTodas(a, b)
+    print(resultado)

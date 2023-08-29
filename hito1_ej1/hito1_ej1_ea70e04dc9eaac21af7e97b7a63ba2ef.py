@@ -1,0 +1,6 @@
+pt=float(input("digite su tarea "))
+pi=float(input("digite las interrogaciones "))
+ne=float(input("digite el examen "))
+pp=float(input("digite la presentacion "))
+notaf=(pt*0.3)+(pi*0.3)+(ne*0.3)+(pp*0.1)
+print(round(notaf,1))

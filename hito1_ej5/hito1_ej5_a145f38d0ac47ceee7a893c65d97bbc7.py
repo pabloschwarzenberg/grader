@@ -1,0 +1,43 @@
+#Cálculo del dígito verificador de un rut
+n=str(input("Ingrese rut: "))
+if(len(n)==8):
+    a1=int(n[0])
+    a2=int(n[1])
+    a3=int(n[2])
+    a4=int(n[3])
+    a5=int(n[4])
+    a6=int(n[5])
+    a7=int(n[6])
+    a8=int(n[7])
+    suma=(a8*2)+(a7*3)+(a6*4)+(a5*5)+(a4*6)+(a3*7)+(a2*2)+(a1*3)
+    resto=int(suma/11)
+    multiplicar=resto*11
+    sustracción=suma-multiplicar
+    codigo=11-sustracción
+    if(codigo==10):
+        print("dv=K")
+    elif(codigo>=11):
+        print("dv=0")
+    else:
+        print("dv={}".format(codigo))
+elif(len(n)==7):
+    a1=int(n[0])
+    a2=int(n[1])
+    a3=int(n[2])
+    a4=int(n[3])
+    a5=int(n[4])
+    a6=int(n[5])
+    a7=int(n[6])
+    suma=(a7*2)+(a6*3)+(a5*4)+(a4*5)+(a3*6)+(a2*7)+(a1*2)
+    resto=int(suma/11)
+    multiplicar=resto*11
+    sustracción=suma-multiplicar
+    codigo=11-sustracción
+    if(codigo==10):
+        print("dv=K")
+    elif(codigo>=11):
+        print("dv=0")
+    else:
+        print("dv={}".format(codigo))
+else:
+    print("Error")

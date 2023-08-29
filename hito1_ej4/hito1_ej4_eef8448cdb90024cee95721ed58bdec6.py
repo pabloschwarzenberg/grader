@@ -1,0 +1,1 @@
+print("resultado=",bin(int(input("ingrese un numero")))[2:])

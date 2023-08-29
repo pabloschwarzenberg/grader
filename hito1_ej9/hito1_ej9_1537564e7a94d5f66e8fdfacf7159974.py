@@ -1,0 +1,18 @@
+a=input("Primer coeficiente ec.1: ")
+b=input("Segundo coeficiente ec.1: ")
+c=input("Tercer coeficiente ec.1: ")
+d=input("Primer coeficiente ec.2: ")
+e=input("Segundo coeficiente ec.2: ")
+f=input("Tercer coeficiente ec.2: ")
+a=float(a)
+b=float(b)
+c=float(c)
+d=float(d)
+e=float(e)
+f=float(f)
+x=(e*c-b*f)/(a*e-b*d)
+y=(a*f-d*c)/(a*e-b*d)
+print("x=",x)
+print("y=",y)
+
+      

@@ -1,0 +1,1 @@
+print("resultado={}".format(bin(int(input()))[2:]))

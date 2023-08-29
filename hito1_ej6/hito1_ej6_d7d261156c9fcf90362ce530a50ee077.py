@@ -1,0 +1,9 @@
+a=int(input())
+b=int(input())
+c=int(input())
+numeros=[]
+numeros.append(a)
+numeros.append(b)
+numeros.append(c)
+numeros.sort(reverse=False)
+print("{0},{1},{2}".format(numeros[0],numeros[1],numeros[2]))

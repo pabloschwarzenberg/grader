@@ -1,0 +1,7 @@
+N=int(input("Escriba un numero de maximo cuatro dígitos: ")
+print  ("su numero es "+ N )
+M= (N//10000) +("M")
+C= N//1000 + ("C")
+D= N//100 + ("D")
+U= N//10 + ("U")
+print("Su numero descompuesto es: " M ,"+" C,"+"D"+",U "+")

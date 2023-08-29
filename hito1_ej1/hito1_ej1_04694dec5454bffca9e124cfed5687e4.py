@@ -1,0 +1,6 @@
+PT=float(input())
+PI=float(input())
+NE=float(input())
+PP=float(input())
+nota_final =float((0.3*float(PT)) + (0.3*float(PI)) + (0.3*float(NE)) + (0.1*float(PP)))
+print((nota_final))

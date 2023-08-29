@@ -1,0 +1,7 @@
+print("a continuacion ingrese cuatro notas")
+n1=float(input("ingrese la nota de las tareas:"))
+n2=float(input("ingrese la nota de las interrogaciones:"))
+n3=float(input("ingrese la nota del examen:"))
+n4=float(input("ingrese la nota de la presentacion:"))
+promedio=float(0.3*n1+0.3*n2+0.3*n3+0.1*n4)
+print("su promedio es:",round(promedio,1))

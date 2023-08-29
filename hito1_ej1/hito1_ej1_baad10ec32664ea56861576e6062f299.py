@@ -1,0 +1,12 @@
+#Nota final
+print ("Ingrese nota de Tareas")
+PT= float(input())
+print ("Ingrese nota de Interrogaciones")
+PI= float(input())
+print ("Ingrese nota de Examen")
+NE= float(input())
+print ("Ingrese nota de Presentación")
+PP= float(input())
+promedio= (0.3*PT + 0.3*PI+ 0.3*NE + 0.1*PP)
+print ("Su promedio final es:")
+print (promedio)

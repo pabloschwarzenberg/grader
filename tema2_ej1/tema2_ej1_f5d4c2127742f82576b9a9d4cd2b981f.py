@@ -1,0 +1,16 @@
+import math
+def area_triangulo(base,altura):
+    a=altura*base/2
+    return a
+
+def area_rectangulo(base,altura):
+    a=base*altura
+    return a
+
+def area_rombo(diagonal1,diagonal2):
+    a= diagonal1*diagonal2/2
+    return a
+
+def area_circulo(radio):
+    a=radio**2*math.pi
+    return a

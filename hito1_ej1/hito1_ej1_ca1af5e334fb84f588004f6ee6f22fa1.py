@@ -1,0 +1,7 @@
+pt=float(input("Nota tarea: "))
+pi=float(input("Nota interrogaciones: "))
+ne=float(input("Nota examen: "))
+pp=float(input("Nota presentacion: "))
+pf= (0.3*pt)+(0.3*pi)+(0.3*ne)+(0.1*pp)
+pf=round(pf,1)
+print("Promedio final: ",pf)

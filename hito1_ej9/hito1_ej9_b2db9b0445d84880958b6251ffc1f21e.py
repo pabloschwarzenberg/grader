@@ -1,0 +1,1 @@
+#Resolver un sistema de ecuaciones 

@@ -1,0 +1,12 @@
+print("Para le sistema de ecuaciones del tipo Ax+BY=C ingrese los parametros")
+a=int(input("Ingrese A: "))
+b=int(input("Ingrese B: "))
+c=int(input("Ingrese C: "))
+d=int(input("Ingrese D: "))
+e=int(input("Ingrese E: "))
+f=int(input("Ingrese F: "))
+
+x=((b*f)-(e*c))/((b*d)-(e*a))
+y=((a*f)-(d*c))/((a*e)-(d*b))
+print("x="+(str(round(x,1))))
+print("y="+(str(round(y,1))))

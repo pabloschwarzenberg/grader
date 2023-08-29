@@ -1,0 +1,25 @@
+#Descomponer un número
+n=str(input("ingrese un numero de hasta 4 digitos: "))
+cuatro=list(n)
+vn=len(cuatro)
+if vn==4:
+  unidad= int(list (n)[3]) 
+  decena= int (list(n)[2])
+  centena= int(list(n)[1])
+  umil= int(list(n)[0])
+  print(umil, "M", end=" + ")
+  print(centena, "C", end=" + ")
+  print(decena, "D", end=" + ")
+  print(unidad,"U", end=" ")
+if vn==3:
+  unidad= int (list(n)[2])
+  decena= int(list(n)[1])
+  centena= int (list(n)[0])
+  print(centena, "C", end=" + ")
+  print(decena, "D", end=" + ")
+  print(unidad, "U", end=" ")
+if vn ==2:
+  unidad= int (list(n)[1])
+  decena= int(list(n)[0])
+  print(decena,"D" , end=" + ")
+  print(unidad,"U", end=" ")

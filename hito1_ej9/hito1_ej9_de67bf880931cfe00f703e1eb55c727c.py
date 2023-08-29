@@ -1,0 +1,10 @@
+a=int(input())     
+b=int(input())
+c=int(input())   
+d=int(input())   
+e=int(input())
+f=int(input())   
+y=(d*c-a*f)/(d*b-a*e)
+x=(f-e*y)/d
+print('x=',round(x,1))
+print('y=',round(y,1))

@@ -1,0 +1,7 @@
+print("A continuacion vamos a calcular tu promedio con las 4 notas")
+PT=float(input("ingrese su nota de las tareas (PT): "))
+PI=float(input("ingrese su nota de las interrogaciones (PI): "))
+NE=float(input("ingrese su nota del examen (NE): "))
+PP=float(input("ingrese su nota de presentacion (PP): "))
+p=(0.3*PT)+(0.3*PI)+(0.3*NE)+(0.1*PP)
+print("su promedio es de",round(p,1))

@@ -1,0 +1,12 @@
+#Nota final
+print('Esta es una calculadora de tu promedio final')
+print('Ingresa el promedio de tus Tareas:')
+PT=float(input())
+print('ingresa el promedio de tus Interrogaciones:')
+PI=float(input())
+print('ingresa tu nota de examen:')
+NE=float(input())
+print('Ingresa tu nota de presentación:')
+PP=float(input())
+PF=round(0.3*PT + 0.3*PI + 0.3*NE + 0.1*PP,1)
+print('Tu promediofinal es:',PF)

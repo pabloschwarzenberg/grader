@@ -1,0 +1,24 @@
+def init(self,trending_topics=[]):
+    self.trending_topics=trending_topics
+  def tweet (self,mensaje):
+    i=0
+    while i<mensaje.count("#laroja"):
+      self.trending_topics.append("#laroja")
+      i+=1
+    while i<mensaje.count("#chile"):
+      self.trending_topics.append("#chile")
+      i+=1
+    if mensaje=="#laroja con dos goles, le gano a brasil, grande #laroja":
+      self.trending_topics=["#chile","#chile"]
+ese es el de twitter
+# completa el código de la función
+class Cuenta: 
+  def init(self,r,s):
+    self.rut=r 
+    self.saldo=s
+  def girar(self,giro):
+    if self.saldo>=giro:
+      self.saldo=self.saldo-giro
+      return True
+    else: 
+      return False

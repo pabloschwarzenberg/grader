@@ -1,0 +1,6 @@
+PT = float(input("ingrese la nota del promedio de tareas : "))
+PI = float(input("ingrese la nota de interrogaciones: "))
+NE= float(input("ingrese la nota del examen: "))
+PP= float(input("Ingrese la nota de presentacion: "))
+Prom=(PT*30/100)+(PI*30/100)+(NE*30/100)+(PP*10/100)
+print(round(Prom,1))

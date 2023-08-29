@@ -1,0 +1,19 @@
+#Sistema de Ecuaciones
+a1=int(input())
+b1=int(input())
+c1=int(input())
+a2=int(input())
+b2=int(input())
+c2=int(input())
+o=a2*c1
+t=a2*(-b1)
+p=a1*c2
+d=a1*(-b2)
+q=o-d
+h=t-d
+y=q/h
+y=round(y,1)
+print("y=",y)
+x=(c1+(-b1*y))/2
+x=round(x,1)
+print("x=",x)

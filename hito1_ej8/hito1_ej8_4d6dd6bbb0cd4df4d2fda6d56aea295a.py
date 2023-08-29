@@ -1,0 +1,15 @@
+#Descomponer un número
+num=int(input("inserte numero: "))
+a=(num%10**4)-(num%10**3)
+a=int(a/1000)
+b=(num%10**3)-(num%10**2)
+b=int(b/100)
+c=(num%10**2)-(num%10)
+c=int(c/10)
+d=(num%10)
+M=str("M")
+D=str("D")
+C=str("C")
+U=str("U")
+
+print(a,M, "+" ,b,C, "+" ,c,D, "+" ,d,U)  

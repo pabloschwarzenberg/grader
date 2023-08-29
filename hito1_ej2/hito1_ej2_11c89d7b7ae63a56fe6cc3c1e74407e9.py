@@ -1,0 +1,20 @@
+#Contestador de celular
+llamada = int(input("Digite su numero telefonico: "))
+hora = int(input("horario planeado para llamar: "))
+emergencia = llamada%1000
+if hora >= 0 and hora <= 7:
+    print("contestar")
+if hora > 7 and hora <= 14 and emergencia == 909:
+    print("contestar")
+if hora > 7 and hora <= 14 and emergencia != 909:
+    print("no contestar")
+if hora > 14 and hora <17:
+    print("no contestar")
+if hora >= 17 and hora < 19 and llamada > 87699999 and llamada < 87800000:
+    print("no contestar")
+if hora >= 17 and hora <= 19 and llamada < 87699999 and llamada > 87800000:
+    print("contestar")
+if hora > 19:
+    print("no contestar")
+    
+

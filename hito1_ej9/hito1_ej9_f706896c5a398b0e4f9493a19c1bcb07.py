@@ -1,0 +1,10 @@
+#Sistema de Ecuaciones
+a=float(input("Ingrese numero a: "))
+b=float(input("Ingrese numero b: "))
+c=float(input("Ingrese numero c: "))
+d=float(input("Ingrese numero d: "))
+e=float(input("Ingrese numero e: "))
+f=float(input("Ingrese numero f: "))
+x=(c-b*f/e)/(a-d*b/e)
+y=(c-a*f/d)/(b-a*e/d)
+print("x=" + str(x) + "," + "y=" + str(y))

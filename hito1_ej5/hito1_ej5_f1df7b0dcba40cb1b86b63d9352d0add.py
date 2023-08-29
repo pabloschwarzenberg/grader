@@ -1,0 +1,24 @@
+#Cálculo del dígito verificador de un rut
+n=int(input("rut:"))
+a=n//10000000
+b=(n//1000000)%10
+c=(n//100000)%10
+d=(n//10000)%10
+e=(n//1000)%10
+f=(n//100)%10
+g=(n//10)%10
+h=n%10
+a=a*8
+b=b*9
+c=c*4
+d=d*5
+e=e*6
+f=f*7
+g=g*8
+h=h*9
+suma=a+b+c+d+e+f+g+h
+resto=suma%11
+if(resto!=10):
+    print("dv=",resto)
+else:
+    print("dv=k")      

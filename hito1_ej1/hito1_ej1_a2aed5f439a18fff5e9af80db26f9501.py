@@ -1,0 +1,11 @@
+PT=float(input())
+PI=float(input())
+NE=float(input())
+PP=float(input())
+A1=0.3*PT
+A2=0.3*PI
+A3=0.3*NE
+A4=0.1*PP
+PF=A1+A2+A3+A4
+PFr=round=(PF,1)
+print(PFr)

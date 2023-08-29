@@ -1,0 +1,6 @@
+pt =  float (input("Ingrese su nota en Tareas:"))
+pi = float (input("Ingrese su nota en Interrogaciones:"))
+ne = float (input("Ingrese su nota en Examen:"))
+pp = float (input("Ingrese su nota en Presentacion:"))
+nf = round (0.3*pt + 0.3*pi + 0.3*ne + 0.1*pp, 1)
+print ("Su nota final es:",nf)

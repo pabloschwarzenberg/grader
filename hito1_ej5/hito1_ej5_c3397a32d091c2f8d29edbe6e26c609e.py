@@ -1,0 +1,57 @@
+#Cálculo del dígito verificador de un rut
+digitos=input()
+cuenta=len(digitos)
+
+if(cuenta==8):
+    primero=int(digitos[7])
+    segundo=int(digitos[6])
+    tercero=int(digitos[5])
+    cuarto=int(digitos[4])
+    quinto=int(digitos[3])
+    sexto=int(digitos[2])
+    septimo=int(digitos[1])
+    octavo=int(digitos[0])
+    multi1=2*primero
+    multi2=3*segundo
+    multi3=4*tercero
+    multi4=5*cuarto
+    multi5=6*quinto
+    multi6=7*sexto
+    multi7=2*septimo
+    multi8=3*octavo
+    suma=multi1+multi2+multi3+multi4+multi5+multi6+multi7+multi8
+    division=suma//11
+    resto=suma-(11*division)
+    resultado=11-resto
+    if(resultado==11):
+        print("dv=0")
+    elif(resultado==10):
+        print("dv=K")
+    elif(resultado!=10)and(resultado!=11):
+        print("dv=",resultado)
+        
+elif(cuenta==7):
+    primero=int(digitos[6])
+    segundo=int(digitos[5])
+    tercero=int(digitos[4])
+    cuarto=int(digitos[3])
+    quinto=int(digitos[2])
+    sexto=int(digitos[1])
+    septimo=int(digitos[0])
+    multi1=2*primero
+    multi2=3*segundo
+    multi3=4*tercero
+    multi4=5*cuarto
+    multi5=6*quinto
+    multi6=7*sexto
+    multi7=2*septimo
+    suma=multi1+multi2+multi3+multi4+multi5+multi6+multi7
+    division=suma//11
+    resto=suma-(11*division)
+    resultado=11-resto
+    if(resultado==11):
+        print("dv=0")
+    elif(resultado==10):
+        print("dv=K")
+    elif(resultado!=10)and(resultado!=11):
+        print("dv=",resultado)

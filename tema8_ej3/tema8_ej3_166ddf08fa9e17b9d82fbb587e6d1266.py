@@ -1,0 +1,28 @@
+def estadisticas_frase(frase):
+    return(75, 521, 5.88, 59, 3)
+x = ""
+x.count("""El hombre imaginario
+vive en una mansión imaginaria
+rodeada de árboles imaginarios
+a la orilla de un río imaginario
+
+De los muros que son imaginarios
+penden antiguos cuadros imaginarios
+irreparables grietas imaginarias
+que representan hechos imaginarios
+ocurridos en mundos imaginarios
+en lugares y tiempos imaginarios
+
+Todas las tardes tardes imaginarias
+sube las escaleras imaginarias
+y se asoma al balcón imaginario
+a mirar el paisaje imaginario
+que consiste en un valle imaginario
+circundado de cerros imaginarios...""")
+contador = 0
+while contador < 2:
+    m = 2
+    x = 1
+    i = 32
+    suma = m + 2 +x
+    contador += 1

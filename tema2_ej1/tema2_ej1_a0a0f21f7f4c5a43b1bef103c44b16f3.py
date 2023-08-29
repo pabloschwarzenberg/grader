@@ -1,0 +1,65 @@
+import math
+def area_triangulo(base,altura):
+    areaTrian=base*altura/2
+    return areaTrian
+
+def area_rectangulo(base,altura):
+    areaRect=base*altura
+    return areaRect
+
+def area_rombo(diagonal1,diagonal2):
+    areaRomb=(diagonal1*diagonal2)/2
+    return areaRomb
+
+def menu():
+    print("Ingrese una opcion")
+    print("[1]Area Triangulo\n[2]Area Rectangulo\n[3]Area Rombo\n[4]Area Circulo\n[5]SALIR")
+def area_circulo(radio):
+    areaCirc=(math.pi*radio**2)
+    return areaCirc
+
+if __name__ == "__main__":
+    while (True):
+        menu()
+        search=int(input("--> "))
+        if search==1:
+            print("Ha ingresado area triangulo")
+            baset=int(input("Ingrese valor de base del triangulo: "))
+            alturat=int(input("Ingrese valor de altura del triangulo: "))
+            print("El area del triangulo es de: ",area_triangulo(baset,alturat))
+        if search==2:
+            print("Ha ingresado area rectangulo")
+            baser=int(input("Ingrese valor de base del rectangulo: "))
+            alturar=int(input("Ingrese valor de altura del rectangulo: "))
+            print("El area del rectangulo es de: ",area_rectangulo(baser,alturar))
+        if search==3:
+            print("Ha ingresado Area Rombo")
+            diagonal11=int(input("Ingrese diagonal 1: "))
+            diagonal22=int(input("Ingrese diagonal 2: "))
+            print("El area del rombo es de: ",area_rombo(diagonal11,diagonal22))
+        if search==4:
+            print("Ha ingresado Area Circulo")
+            radioo=int(input("Ingrese radio del circulo: "))
+            print("El area del circulo es de: ", area_circulo(radioo))
+        if search==5:
+            print("Saliendo...")
+            break
+
+
+
+
+
+def numero_perfecto(a):
+    suma = 0
+    for i in range(1,a):
+        if (a % (i) == 0):
+            suma += (i)
+    if a == suma:
+        return True
+    else:
+        return False
+
+
+if __name__=="__main__":
+    a=int(input("Ingrese a: "))
+    print(numero_perfecto(a))

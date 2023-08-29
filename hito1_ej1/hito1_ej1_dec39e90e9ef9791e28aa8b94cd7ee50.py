@@ -1,0 +1,6 @@
+pt = float(input("ingresa PT: "))
+pi = float(input("ingresa PI: "))
+ne = float(input("ingresa NE: "))
+pp = float(input("ingresa PP: "))
+suma = (0.3 * pt) + (0.3 * pi) + (0.3 * ne) + (0.1 * pp)
+print(suma)

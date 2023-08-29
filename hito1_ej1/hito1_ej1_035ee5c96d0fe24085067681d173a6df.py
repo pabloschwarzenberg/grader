@@ -1,0 +1,7 @@
+PT=eval(input("ingrese nota de tarea:",))
+PI=eval(input("ingrese nota de interrogacion:",))
+NE=eval(input("ingrese notas de examen:",))
+PP=eval(input("ingrse nota de presentacion:",))
+NF=(0.3*PT + 0.3*PI + 0.3*NE + 0.1*PP)
+NFF=round(NF,1)
+print("su promedio final es",NFF) 

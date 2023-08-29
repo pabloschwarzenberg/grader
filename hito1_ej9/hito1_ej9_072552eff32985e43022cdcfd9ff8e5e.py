@@ -1,0 +1,12 @@
+#Sistema de Ecuaciones
+print("Introduzca dos ecuaciónes del tipo ax+by=c y dx+ey=f")
+a=float(input("Introduzca el número a: "))
+b=float(input("Introduzca el número b: "))
+c=float(input("Introduzca el número c: "))
+d=float(input("Introduzca el número d: "))
+e=float(input("Introduzca el número e: "))
+f=float(input("Introduzca el número f: "))
+x=(c-b*f/e)/(a-d*b/e)
+y=(c-a*f/d)/(b-a*e/d)
+print("x="+ str(x))
+print("y="+ str(y))

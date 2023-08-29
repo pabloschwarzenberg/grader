@@ -1,0 +1,6 @@
+PT=float(input())
+PI=float(input())
+NE=float(input())
+PP=float(input())
+z = float(PT*3) + float(PI*3) + float(NE*3) + float(PP*1)
+print(int(z)/10) 

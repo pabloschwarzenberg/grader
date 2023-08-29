@@ -1,0 +1,22 @@
+#Aprobación de créditos
+ingreso=int(input())
+nacimiento=int(input())
+edad=2021-nacimiento
+hijos=int(input())
+banco=int(input())
+estadoCivil=input()
+soltero="S"
+casado="C"
+vivienda=input()
+urbano="U"
+rural="R"
+if(banco>10)and(hijos>=2):
+    print("APROBADO")
+elif(estadoCivil==casado)and(hijos>=3)and(edad>=45)and(edad<=55):
+    print("APROBADO")
+elif(ingreso>2500000)and(estadoCivil==soltero)and(vivienda==urbano):
+    print("APROBADO")
+elif(ingreso>3500000)and(banco>5):
+    print("APROBADO")
+elif(vivienda==rural)and(estadoCivil==casado)and(hijos<2):
+    print("APROBADO")

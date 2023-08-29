@@ -1,0 +1,16 @@
+#Sistema de Ecuaciones
+def sistema_de_ecuaciones():
+    a = eval(input("ingreese la incognita de a en la primera ecuacion"))
+    b = eval(input("ingreese la incognita de b en la primera ecuacion"))
+    c = eval(input("ingreese la incognita de c en la primera ecuacion"))
+    d = eval(input("ingreese la incognita de a en la segunda ecuacion"))
+    e = eval(input("ingreese la incognita de b en la segunda ecuacion"))
+    f = eval(input("ingreese la incognita de c en la segunda ecuacion"))
+    g = (a)*(e)-(b)*(d)
+    h = (c)*(e)-(b)*(f)
+    i= (a)*(f)-(c)*(d)
+    x = round((h/g),1)
+    y = round((i/g),1)
+    print("x" + "=" + str(x))
+    print("y" + "=" + str(y))
+sistema_de_ecuaciones()

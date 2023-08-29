@@ -1,0 +1,11 @@
+#Sistema de Ecuaciones
+print("Sistema de ecuaciones que se desea realizar de la forma ax + by = c1")
+a1=int(input("Ingrese número entero a1: "))
+b1=int(input("Ingrese número entero b1: "))
+c1=int(input("Ingrese número entero c1: "))
+a2=int(input("Ingrese número entero a2: "))
+b2=int(input("Ingrese número entero b2: "))
+c2=int(input("ingrese número entero c2: "))
+x=((c1*b2)-(b1*c2))/((b2*a1)-(b1*a2))
+y=((c2*a1)-(a2*c1))/((a1*b2)-(a2*b1))
+print("x=", x, "y=", y) 

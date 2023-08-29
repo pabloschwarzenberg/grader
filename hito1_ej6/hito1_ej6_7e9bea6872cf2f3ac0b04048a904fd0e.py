@@ -1,0 +1,8 @@
+print("Escribe un programa que reciba tres números enteros y los imprima ordenados de menor a mayor, separacos por una coma")  
+a = int(input("ingrese primer número: ")) 
+b = int(input("ingrese segundo número: "))
+c = int(input("ingrese tercer número: "))
+x = (min(a, b, c))       
+y = (max(a, b, c))
+z = ((a + b + c) - x - y) 
+print(x, z, y, sep = ",") 

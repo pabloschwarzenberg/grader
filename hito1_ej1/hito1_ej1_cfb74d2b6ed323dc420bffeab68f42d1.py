@@ -1,0 +1,7 @@
+pt=float(input("Dime la nota que obstuviste en tus tareas: "))
+pi=float(input("Dime la nota que obstuviste en tus interrogaciones: "))
+ne=float(input("Dime la nota que obstuviste en tu exámen: "))
+pp=float(input("Dime la nota que obstuviste en tu presentación: "))
+promedio=(pt*0.3)+(pi*0.3)+(ne*0.3)+(pp*0.1)
+redondeo=round(promedio,1)
+print("Su promedio final es: ",redondeo)

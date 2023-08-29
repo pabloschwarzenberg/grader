@@ -1,0 +1,8 @@
+print("Ingrese tres números ENTEROS:")
+a=int(input("Número 1: "))
+b=int(input("Número 2: "))
+c=int(input("Número 3: "))
+print("A continuación se muestran los números ordenados de menor a mayor:")
+valores=(a,b,c)
+cs=sorted(valores)
+print(cs)

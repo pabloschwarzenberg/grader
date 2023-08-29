@@ -1,0 +1,11 @@
+class Cuenta:
+    def __init__(self,rut,saldo):
+        self.rut=rut
+        self.saldo=int(saldo)
+    def girar(self,monto):
+        self.monto=int(monto)
+        if self.monto<=self.saldo:
+            self.saldo-=self.monto
+            return True
+        else:
+            return False

@@ -1,0 +1,12 @@
+#ax+by=c
+#dx+ey=f
+a=int(input())
+b=int(input())
+c=int(input())
+d=int(input())
+e=int(input())
+f=int(input())
+y=int((a*f)-(d*c))/((a*e)-(b*d))
+x=int((-(b*y)+c)/a)
+print("x=",x,".0")
+print("y=",y)

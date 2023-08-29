@@ -1,0 +1,38 @@
+#Zodiaco
+d=int(input())
+m=int(input())
+if(((d>=21)and(m==3))or((d<=20)and(m==4))):
+  print("ARIES")
+else:
+  if(((d>=21)and(m==4))or((d<=21)and(m==5))):
+    print("TAURUS")
+  else:
+      if(((d>=22)and(m==5))or((d<=21)and(m==6))):
+        print("GEMINI")
+      else:
+          if(((d>=22)and(m==6))or((d<=22)and(m==7))):
+            print("CANCER")
+          else:
+              if(((d>=23)and(m==7))or((d<=22)and(m==8))):
+                print("LEO")
+              else:
+                  if(((d>=23)and(m==8))or((d<=23)and(m==9))):
+                   print("VIRGO")
+                  else:
+                      if(((d>=24)and(m==9))or((d<=23)and(m==10))):
+                        print("LIBRA")
+                      else:
+                          if(((d>=24)and(m==10))or((d<=22)and(m==11))):
+                            print("SCORPIO")
+                          else:
+                              if(((d>=23)and(m==11))or((d<=21)and(m==12))):
+                                print("SAGITTARIUS")
+                              else:
+                                  if(((d>=22)and(m==12))or((d<=20)and(m==1))):
+                                    print("CAPRICORN")
+                                  else:
+                                      if(((d>=21)and(m==1))or((d<=19)and(m==2))):
+                                        print("AQUARIUS")
+                                      else:
+                                          if(((d>=20)and(m==2))or((d<=20)and(m==3))):
+                                            print("PISCES")

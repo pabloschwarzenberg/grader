@@ -1,0 +1,37 @@
+#Cálculo del dígito verificador de un rut
+rut=str(input())
+if(len(rut)==7):
+  i=int(rut[6])*2
+  j=int(rut[5])*3
+  k=int(rut[4])*4
+  l=int(rut[3])*5
+  m=int(rut[2])*6
+  n=int(rut[1])*7
+  o=int(rut[0])*2
+  suma2=int(i+j+k+l+m+n+o)
+  resto2=suma2%11
+  digito2=11-resto2
+  if(digito2==10):
+    print("dv=k")
+  elif(digito2==11):
+    print("dv=0")
+  else:
+    print("dv=",digito2)
+else:
+  a=int(rut[7])*2
+  b=int(rut[6])*3
+  c=int(rut[5])*4
+  d=int(rut[4])*5
+  e=int(rut[3])*6
+  f=int(rut[2])*7
+  g=int(rut[1])*2
+  h=int(rut[0])*3
+  suma=int(a+b+c+d+e+f+g+h)
+  resto=suma%11
+  digito=11-resto
+  if(digito==10):
+    print("dv=k")
+  elif(digito==11):
+    print("dv=0")
+  else:
+    print("dv=",digito)

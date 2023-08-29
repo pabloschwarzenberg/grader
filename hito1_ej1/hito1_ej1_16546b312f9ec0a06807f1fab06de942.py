@@ -1,0 +1,12 @@
+#Nota final
+NT=float(input("ingrese nota de tares: "))
+NI=float(input("ingrese nota de interrogacion: "))
+NE=float(input("ingrese nota de examen: "))
+NP=float(input("ingrese nota de la presentacion: "))
+promedio=float(0.3*NT+0.3*NI+0.3*NE+0.1*NP)
+round(promedio,1)
+round=(NT, 1)
+round=(NI, 1)
+round=(NE, 1)
+round=(NP, 1)
+print("su nota final es: ", promedio)

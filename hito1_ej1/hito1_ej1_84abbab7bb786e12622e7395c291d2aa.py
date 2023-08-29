@@ -1,0 +1,10 @@
+#Nota final
+PT=input('Ingrese su promedio de tareas:') 
+PT=float(PT)
+PI=input('Ingrese su promedio de interrogaciones:')
+PI=float(PI)
+NE=input('Ingrese su nota de examen:') 
+NE=float(NE)
+PP=input('Ingrese su nota de presentacion:')
+PP=float(PP)
+print('Su nota final es', round(0.3*PT+0.3*PI+0.3*NE+0.1*PP,1))

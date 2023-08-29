@@ -1,0 +1,55 @@
+#Cálculo del dígito verificador de un rut
+#Escribe un programa que reciba como dato un número que representará un rut al que debe calcularle el dígito verificador. Por ejemplo al ingresar 6016740 tu programa debiera imprimir el siguiente mensaje:
+rut=int(input("digite su rut sin el código verificador: "))
+if(rut>9999999):
+  primero=rut%10
+  segundo=rut%100//10
+  tercero=rut%1000//100
+  cuarto=rut%10000//1000
+  quinto=rut%100000//10000
+  sexto=rut%1000000//100000
+  septimo=rut%10000000//1000000
+  octavo=rut//10000000
+  one=primero*2
+  two=segundo*3
+  three=tercero*4
+  four=cuarto*5
+  five=quinto*6
+  six=sexto*7
+  seven=septimo*2
+  eight=octavo*3
+  suma=one+two+three+four+five+six+seven+eight
+  division=int(suma//11)
+  resta=suma-(11*division)
+  dv=11-resta
+  if(dv==11):
+    print("dv=0")
+  elif(dv<10):
+    print("dv=",dv)
+  else:
+    print("dv=k")
+elif(rut<10000000):
+  primero=rut%10
+  segundo=rut%100//10
+  tercero=rut%1000//100
+  cuarto=rut%10000//1000
+  quinto=rut%100000//10000
+  sexto=rut%1000000//100000
+  septimo=rut//1000000
+  one=primero*2
+  two=segundo*3
+  three=tercero*4
+  four=cuarto*5
+  five=quinto*6
+  six=sexto*7
+  seven=septimo*2
+  suma=one+two+three+four+five+six+seven
+  division=int(suma//11)
+  resta=suma-(11*division)
+  dv=11-resta
+  if(dv==11):
+    print("dv=0")
+  elif(dv<10):
+    print("dv=",dv)
+  else:
+    print("dv=k")

@@ -1,0 +1,6 @@
+a= int(input ("Ingrese el primer número: "))
+b= int(input ("Ingrese el segundo número: "))
+c= int(input ("Ingrese el segundo número: "))
+O=(a,b,c)
+F=sorted (O)
+print ("El orden de los números de menor a mayor es",F,)

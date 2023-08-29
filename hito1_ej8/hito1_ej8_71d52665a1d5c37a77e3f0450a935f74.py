@@ -1,0 +1,1 @@
+python descomposicion.py 3647

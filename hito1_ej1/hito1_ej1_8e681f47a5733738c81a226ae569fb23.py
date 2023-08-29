@@ -1,0 +1,16 @@
+print("nota de tareas")
+pt=input()
+print("nota de interrogaciones")
+pi=input()
+print("nota de examen")
+ne=input()
+print("nota de presentacion")
+pp=input()
+
+ptn=float(pt)
+pin=float(pi)
+nen=float(ne)
+ppn=float(pp)
+
+promedio=(0.3*ptn + 0.3*pin + 0.3*nen + 0.1*ppn)
+print("El promedio es: %d",promedio)

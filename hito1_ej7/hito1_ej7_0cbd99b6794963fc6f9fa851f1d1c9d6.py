@@ -1,0 +1,33 @@
+
+dia= int(input("ingrese su día de nacimiento: "))
+mes= int(input("ingrese su mes de nacimiento: "))
+
+if (dia>=21 and mes==3) or (dia<=20 and mes==4):
+    print ('Aries')
+elif (dia>=21 and mes==4) or (dia<=21 and mes==5):
+    print ('Tauro')
+elif (dia>=22 and mes==5) or (dia<=21 and mes==6):
+    print ('Géminis')
+elif (dia>=21 and mes==6) or (dia<=23 and mes==7):
+    print ('Cáncer')
+elif (dia>=24 and mes==7) or (dia<=23 and mes==8):
+    print ('Leon')
+elif (dia>=24 and mes==8) or (dia<=23 and mes==9):
+    print ('Virgo')
+elif (dia>=24 and mes==9) or (dia<=23 and mes==10):
+    print ('Libra')
+elif (dia>=24 and mes==10) or (dia<=22 and mes==11):
+    print ('Escorpio')
+elif (dia>=23 and mes==11) or (dia<=21 and mes==12):
+    print ('Sagitario')
+
+elif (dia>=22 and mes==12) or (dia<=20 and mes==1):
+    print ('Capricornio')
+
+elif (dia>=21 and mes==1) or (dia<=19 and mes==2):
+    print ('Acuario')
+
+elif (dia>=20 and mes==2) or (dia<=20 and mes==3):
+    print ('Piscis')
+else:
+    print("Debe ingresar un dato válido")

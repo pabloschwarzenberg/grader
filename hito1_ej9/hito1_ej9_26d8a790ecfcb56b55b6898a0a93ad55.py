@@ -1,0 +1,23 @@
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+a = float(a)
+b = float(b)
+c = float(c)
+d = float(d)
+e = float(e)
+f = float(f)
+determinante = (a*e) - (b*d)
+if determinante != 0:
+  x = (((c*e)-(b*f)) / determinante)
+  y = (((a*f)-(c*d)) / determinante)
+else:
+  print("Vacio")
+
+x = str(x)
+y = str(y)
+print("x=" + x)
+print("y=" + y)

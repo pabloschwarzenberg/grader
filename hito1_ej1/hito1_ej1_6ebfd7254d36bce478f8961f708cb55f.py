@@ -1,0 +1,6 @@
+PT = float(input("Ingrese nota de tarea: "))
+PI = float(input("Ingrese nota de la interrogacion: "))
+NE = float(input("Ingrese nota de examen: "))
+PP = float(input("ingrese nota de presentacion: "))
+promedio = float(0.3*PT + 0.3*PI + 0.3*NE + 0.1*PP)
+print("este es su promedio final ", promedio)

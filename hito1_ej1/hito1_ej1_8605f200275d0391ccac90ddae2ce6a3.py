@@ -1,0 +1,11 @@
+pt = float(input())
+pi = float(input())
+ne = float(input())
+pp = float(input())
+
+pt1 = float(0.3 * pt)
+pi1 = float(0.3 * pi)
+ne1 = float(0.3 * ne)
+pp1 = float(0.1 * pp)
+aa = float(pt1 + pi1 + ne1 + pp1)
+print(round(aa,1))

@@ -1,0 +1,24 @@
+def area_triangulo(base,altura):
+    a=(base*altura)/2
+    b=round(a,1)
+    return b
+def area_rectangulo(base,altura):
+    a=base*altura
+    b=round(a,1)
+    return b
+
+def area_rombo(diagonal1,diagonal2):
+    a=(diagonal1*diagonal2)/2
+    b=round(a,1)
+    return b 
+
+def area_circulo(radio):
+    b=(radio**2)*3.1415926535897932384626433832795028841971693993751058209749445923078164062862089986280348253421170679821480865132823066470938446095505822317253594081284811174502841027019385211055596446229489549303819644288109756659334461284756482337867831652712019091456485669234603486104543266482133936072602491412
+    
+    return b 
+
+
+
+if __name__ == "__main__":
+    pass
+           

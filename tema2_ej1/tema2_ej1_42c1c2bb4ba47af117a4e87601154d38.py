@@ -1,0 +1,28 @@
+def area_triangulo(base, altura):
+    return base*altura/2
+if __name__=="_main_":
+    a=float(input('Ingrese la altura: '))
+    b=float(input('Ingrese la base: '))
+    print(area_triangulo(base=b,altura=a))
+pass
+def area_rombo(diagonal1, diagonal2):
+    return diagonal1*diagonal2/2
+if __name__=="_main_":
+    a=float(input('Ingrese el diagonal1 del rombo: '))
+    b=float(input('Ingrese el diagonal2 del rombo: '))
+    print(area_rombo(diagonal1=b,diagonal2=a))
+pass
+def area_rectangulo(base, altura):
+    return base*altura
+if __name__== "_main_":
+    a=float(input('Ingrese la altura del rectangulo: '))
+    b=float(input('Ingrese la base del rectangulo: '))
+    print(area_rectangulo(base=b,altura=a))
+pass
+import math
+def area_circulo(radio):
+    return math.pi*(radio**2)
+if __name__=="_main_":
+    r=float(input('ingrese el radio en metros: '))
+    print(area(radio=r))
+pass

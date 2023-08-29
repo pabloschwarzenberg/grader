@@ -1,0 +1,6 @@
+n1=int(input("ingrese un numero entre 0 y 3"))
+n2=int(input("ingrese un numero entre 3 y 6"))
+n3=int(input("ingrese un numero entre 6 y 9"))
+valores= (n1,n2,n3)
+cs=sorted(valores)
+print("en orden los valores quedan como ",cs)

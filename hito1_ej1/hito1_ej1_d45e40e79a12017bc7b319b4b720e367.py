@@ -1,0 +1,6 @@
+PT=eval(input("Ingrese la nota de tareas: "))
+PI =eval(input("Ingrese la nota de interrogaciones: "))
+NE=eval(input("Ingrese la nota del examen : "))
+PP=eval(input("Ingrese la nota de presentacion: "))
+promedio=promedio = (0.3 * PT) + (0.3 * PI) + (0.3 * NE) + (0.1 * PP)
+print("El promedio de notas es: ", promedio)

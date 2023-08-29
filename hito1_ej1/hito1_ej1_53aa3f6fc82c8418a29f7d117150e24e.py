@@ -1,0 +1,6 @@
+pt=eval(input('ingrese tarea'))
+pi=eval(input('ingrese interrogaciones'))
+ne=eval(input('ingrese examen'))
+pp=eval(input('ingrese presentacion'))
+val=(0.3*pt)+( 0.3*pi)+(0.3*ne)+(0.1*pp)
+print(round(val,1))

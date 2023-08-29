@@ -1,0 +1,6 @@
+PT=float(input("Ingresa un numero: "))
+PI=float(input("Ingresa un numero: "))
+NE=float(input("Ingresa un numero: "))
+PP=float(input("Ingresa un numero: "))
+promedio_final=float(0.3*PT+0.3*PI+0.3*NE+0.1*PP)
+print(promedio_final)

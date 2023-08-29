@@ -1,0 +1,30 @@
+#dig verificador de rut
+rut=str(input("ingrese su rut sin digito verificador: "))
+if(len(rut)==8):
+ d1=eval(rut[7])*2
+ d2=eval(rut[6])*3
+ d3=eval(rut[5])*4
+ d4=eval(rut[4])*5
+ d5=eval(rut[3])*6
+ d6=eval(rut[2])*7
+ d7=eval(rut[1])*2
+ d8=eval(rut[0])*3
+ suma=d1+d2+d3+d4+d5+d6+d7+d8
+if(len(rut)==7):
+ d1=eval(rut[6])*2
+ d2=eval(rut[5])*3
+ d3=eval(rut[4])*4
+ d4=eval(rut[3])*5
+ d5=eval(rut[2])*6
+ d6=eval(rut[1])*7
+ d7=eval(rut[0])*2
+ suma=d1+d2+d3+d4+d5+d6+d7
+d=suma//11
+df=d*11
+ds=suma-df
+dv=11-ds
+if(dv==10):
+ dv="K"
+if(dv==11):
+ dv=0
+print("dv=",dv)

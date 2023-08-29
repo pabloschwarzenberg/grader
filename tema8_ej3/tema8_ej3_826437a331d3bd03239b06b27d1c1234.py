@@ -1,0 +1,46 @@
+hombre_imaginario = """
+El hombre imaginario
+vive en una mansión imaginaria
+rodeada de árboles imaginarios
+a la orilla de un río imaginario
+
+De los muros que son imaginarios
+penden antiguos cuadros imaginarios
+irreparables grietas imaginarias
+que representan hechos imaginarios
+ocurridos en mundos imaginarios
+en lugares y tiempos imaginarios
+
+Todas las tardes tardes imaginarias
+sube las escaleras imaginarias
+y se asoma al balcón imaginario
+a mirar el paisaje imaginario
+que consiste en un valle imaginario
+circundado de cerros imaginarios..."""
+
+def estadisticas_frase(frase):
+    caracteres = len(frase)
+    espacio = 0
+    promedio = 0
+    puntuacion = 0
+    palabra = -2
+    letras = 0
+    for i in range(len(frase)):
+        y = frase[i]
+        #print(y)
+        if y == " ":
+            espacio += 1
+            palabra += 1        
+        elif y == ".":
+            puntuacion += 1
+        elif y == ("\n"):
+            palabra += 1
+            print(1)
+        else:
+            letras += 1
+    promedio = round((letras/palabra), 2)
+    return (palabra, caracteres, promedio, espacio, puntuacion)
+
+if __name__ == "__main__":
+    print(estadisticas_frase(hombre_imaginario))
+        

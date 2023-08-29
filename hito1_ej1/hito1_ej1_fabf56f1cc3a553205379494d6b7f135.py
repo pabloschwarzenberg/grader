@@ -1,0 +1,6 @@
+PT=float(input())
+PI=float(input())
+NE=float(input())
+PP=float(input())
+x=(PT*3/10)+(PI*3/10)+(NE*3/10)+(PP/10)
+print(round(x,1))

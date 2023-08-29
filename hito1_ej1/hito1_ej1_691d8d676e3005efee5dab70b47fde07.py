@@ -1,0 +1,12 @@
+#Nota final
+print("ingrese su nota de tareas: ")
+PT=float(input())
+print("ingrese su nota de interrogaciones: ")
+PI=float(input())
+print("ingrese su nota de exámen: ")
+NE=float(input())
+print("ingrese su nota de presentación: ")
+PP=float(input())
+NotaFinal=(0.3*(PT + PI + NE) + 0.1*PP)
+NotaFinal1=round(NotaFinal,1)
+print(NotaFinal1)

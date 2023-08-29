@@ -1,0 +1,31 @@
+class Matriz:
+    def __init__(self,celdas=[]):
+        self.celdas=celdas
+
+    def __repr__(self):
+        s=""
+        for i in range(len(self.celdas)):
+            for j in range(len(self.celdas)):
+                s+="{0: >5} ".format(self.celdas[i][j])
+            s+="\n"
+        return s
+
+    def __mul__(self, other):
+        resultado = []
+        for i in range(len(self.celdas)):
+            resultado.append([])
+            for j in range(len(other.celdas[0])):
+                resultado[i].append('')
+        for c in range(len(other.celdas[0])):
+            for i in range(len(self.celdas)):                
+                suma = 0
+                for j in range(len(self.celdas[0])):
+                  suma += self.celdas[i][j]*other.celdas[j][c]
+                resultado[i][c]=suma
+        return Matriz(resultado)
+if __name__ == "__main__":
+    a=Matriz([[1,2],[3,4]])
+    b=Matriz([[5,6],[7,8]])
+    r=a*b
+    print(r)
+           

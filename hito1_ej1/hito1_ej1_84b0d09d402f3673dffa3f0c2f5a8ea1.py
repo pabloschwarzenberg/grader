@@ -1,0 +1,6 @@
+PT=float(input("introduzca nota de tareas: "))
+PI=float(input("introduzca nota de las interrogaciones: "))
+NE=float(input("introduzca nota del exmanen: "))
+PP=float(input("introduzca nota de la presentacion: "))
+promediofinal=((0.3*PT)+(0.3*PI)+(0.3*NE)+(0.1*PP))
+print("el promedio final es " ,promediofinal,)

@@ -1,0 +1,12 @@
+#Nota final
+PT = float(input("1:"))
+PI = float(input("2:"))
+NE = float(input("Examen: "))
+PP = float(input("Presentacion: "))
+PTR = round(PT,1)
+PIR = round(PI,1)
+NER = round(NE,1)
+PPR = round(PP,1)
+Resu = (PTR*0.3) + (PIR*0.3) + (NER*0.3) + (PPR*0.1)
+Resultado = round(Resu,1)
+print(Resultado)

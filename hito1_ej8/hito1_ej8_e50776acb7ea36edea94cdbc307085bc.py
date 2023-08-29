@@ -1,0 +1,24 @@
+#Descomponer un número
+a=int(input())
+z=str(a)
+b=len(z)
+if(b==4):
+    c=int(a[0])*1000
+    d=int(a[1])*100
+    e=int(a[2])*10
+    f=int(a[3])*1
+    print(c+d+e+f)
+elif(b==3):
+    d=int(a[1])*100
+    e=int(a[2])*10
+    f=int(a[3])*1
+    print(d+e+f)
+elif(b==2):
+    e=int(a[2])*10
+    f=int(a[3])*1
+    print(e+f)
+elif(b==1):
+    f=int(a[3])*1
+    print(e+f)
+else:
+    print(0)

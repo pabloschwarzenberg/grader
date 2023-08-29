@@ -1,0 +1,7 @@
+nt = float(input("ingresa la nota de tus tareas: "))
+ni = float(input("ingresa la nota de tus interrogaciones: "))
+ne = float(input("ingresa la nota de tus examenes: "))
+np = float(input("ingresa la nota de tus presentaciones: "))
+nf = (0.3*nt)+(0.3*ni)+(0.3*ne)+(0.1*np)
+nfe = (round(nf,3))
+print("tu promedio final de notas es: ", nfe)

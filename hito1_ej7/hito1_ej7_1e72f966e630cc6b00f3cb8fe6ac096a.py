@@ -1,0 +1,51 @@
+#Zodiaco
+x = int(input("Ingresa el dia de nacimiento: "))
+y = int(input("Ingresa el mes de nacimiento como número: "))
+if 21<=x<=30 and y==3:
+    print("tu signo es Aries")
+elif 0<x<=20 and y==4:
+    print("tu signo es Aries")
+if 20<=x<=30 and y==4:
+    print("tu signo es Tauro")
+elif 0<x<=21 and y==5:
+    print("tu signo es Tauro")
+if 21<=x<=30 and y==5:
+    print("tu signo es Geminis")
+elif 0<x<=21 and y==6:
+    print("tu signo es Geminis")
+if 21<=x<=30 and y==6:
+    print("tu signo es Cancer")
+elif 0<x<=23 and y==7:
+    print("tu signo es Cancer")
+if 23<=x<=30 and y==7:
+    print("tu signo es Leo")
+elif 0<x<=23 and y==8:
+    print("tu signo es Leo")
+if 23<=x<=30 and y==8:
+    print("tu signo es Virgo")
+elif 0<x<=23 and y==9:
+    print("tu signo es Virgo")
+if 23<=x<=30 and y==9:
+    print("tu signo es Libra")
+elif 0<x<=23 and y==10:
+    print("tu signo es Libra")
+if 23<=x<=30 and y==10:
+    print("tu signo es Escorpio")
+elif 0<x<=22 and y==11:
+    print("tu signo es Escorpio")
+if 23<=x<=30 and y==11:
+    print("tu signo es Sagitario")
+elif 0<x<=22 and y==12:
+    print("tu signo es Sagitario")
+if 22<=x<=30 and y==12:
+    print("tu signo es Capricornio")
+elif 0<x<=20 and y==1:
+    print("tu signo es Capricornio")
+if 20<=x<=30 and y==1:
+    print("tu signo es Acuario")
+elif 0<x<=19 and y==2:
+    print("tu signo es Acuario")
+if 19<=x<=30 and y==2:
+    print("tu signo es Piscis")
+elif 0<x<=21 and y==3:
+    print("tu signo es Piscis")

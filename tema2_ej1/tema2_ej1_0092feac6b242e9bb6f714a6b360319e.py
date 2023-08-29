@@ -1,0 +1,43 @@
+def area_triangulo(base,altura):
+    return (base * altura) / 2
+
+def area_rectangulo(base,altura):
+    return base * altura
+
+def area_rombo(diagonal1,diagonal2):
+    return (diagonal1 * diagonal2) / 2
+
+def area_circulo(radio):
+    return 3.14159265358979323846 * (radio ** 2)
+
+if __name__ == "__main__":
+    print("Bienvenido al programa de cálculo de áreas")
+    print("1. Rectangulo")
+    print("2. Triángulo")
+    print("3. Rombo")
+    print("4. Círculo")
+
+    opcion = int(input("Seleccione una figura (1-4): "))
+
+    if opcion == 1:
+        base = float(input("Ingrese la base del rectángulo: "))
+        altura = float(input("Ingrese la altura del rectángulo: "))
+        area = area_rectangulo(base, altura)
+        print("El área del rectángulo es:", area)
+    elif opcion == 2:
+        base = float(input("Ingrese la base del triángulo: "))
+        altura = float(input("Ingrese la altura del triángulo: "))
+        area = area_triangulo(base, altura)
+        print("El área del triángulo es:", area)
+    elif opcion == 3:
+        diagonal_mayor = float(input("Ingrese la diagonal mayor del rombo: "))
+        diagonal_menor = float(input("Ingrese la diagonal menor del rombo: "))
+        area = area_rombo(diagona1, diagonal2)
+        print("El área del rombo es:", area)
+    elif opcion == 4:
+        radio = float(input("Ingrese el radio del círculo: "))
+        area = area_circulo(radio)
+        print("El área del círculo es:", area)
+    else:
+        print("Opción inválida. Por favor, seleccione una opción válida (1-4).")
+           

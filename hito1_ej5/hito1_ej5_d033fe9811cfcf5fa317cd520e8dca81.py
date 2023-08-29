@@ -1,0 +1,19 @@
+d1=int(input("ingrese el primer digito de su rut:"))
+d2=int(input("ingrese el segundo digito de su rut:"))
+d3=int(input("ingrese el tercer digito de su rut:"))
+d4=int(input("ingrese el cuarto digito de su rut:"))
+d5=int(input("ingrese el quinto digito de su rut:"))
+d6=int(input("ingrese el sexto digito de su rut:"))
+d7=int(input("ingrese el septimo digito de su rut:"))
+d8=int(input("ingrese el octavo digito de su rut:"))
+d11=d1*2
+d22=d2*3
+d33=d3*4
+d44=d4*5
+d55=d5*6
+d66=d6*7
+d77=d7*2
+d88=d8*3
+dv=(d11+d22+d33+d44+d55+d66+d77+d88)/11
+r=11-dv
+print("el digito verificador es: ",r)

@@ -1,0 +1,7 @@
+PT = float(input("Ingrese Nota Tareas"))
+PI = float(input("Ingrese Nota Interrogaciones"))
+NE = float(input("Ingrese Nota Examen"))
+PP = float(input("Ingrese Nota Presentación"))
+NF = (0.3*PT + 0.3*PI + 0.3*NE + 0.1*PP)
+PF = round(NF, 1)
+print(PF)

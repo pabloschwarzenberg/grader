@@ -1,0 +1,22 @@
+def area_triangulo(base, altura):
+    area = (base*altura)/2
+    return area
+    pass
+
+def area_rectangulo(base, altura):
+    area = base*altura
+    return area
+    pass
+
+def area_rombo(diagonal1, diagonal2):
+    if diagonal1 > diagonal2:
+        area = (diagonal1 * diagonal2)/2
+        return area
+        pass
+
+def area_circulo(radio):
+    pi = 3.1415926535897932384626433832795
+    area = pi*radio**2
+    return area
+    pass
+           

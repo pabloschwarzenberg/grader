@@ -1,0 +1,9 @@
+#Sistema de Ecuaciones
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+e = int(input())
+f = int(input())
+print('x=' + str(round((c*e-b*f)/(a*e-b*d),1)))
+print('y=' + str(round((a*f-c*d)/(a*e-b*d),1)))

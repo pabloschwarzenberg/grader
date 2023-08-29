@@ -1,0 +1,6 @@
+PT=(float(input("Inserte nota de tareas : ")))
+PI=(float(input("Inserte nota de interrogaciones : ")))
+NE=(float(input("Inserte nota de examen : ")))
+PP=(float(input("Inserte nota de presentación : ")))
+P=(0.3*PT+0.3*PI+0.3*NE+0.1*PP)
+print("La nota final del curso es :",P)

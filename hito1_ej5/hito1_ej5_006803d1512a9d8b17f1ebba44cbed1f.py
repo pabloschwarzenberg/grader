@@ -1,0 +1,54 @@
+rut=input("Ingrese su rut, sin puntos ni guion ")
+cant=len(rut)
+if(cant==8):
+  a=eval(rut[7])
+  b=eval(rut[6])
+  c=eval(rut[5]) 
+  d=eval(rut[4])
+  e=eval(rut[3])
+  f=eval(rut[2])
+  g=eval(rut[1])
+  h=eval(rut[0])
+  a=a*2
+  b=b*3
+  c=c*4
+  d=d*5
+  e=e*6
+  f=f*7
+  g=g*2
+  h=h*3
+  suma=a+b+c+d+e+f+g+h
+  divi=suma//11
+  ope=suma-(11*divi)
+  resta=11-ope
+  resultado=resta
+  if(resultado==11):
+    resultado=0
+  if(resultado==10):
+    resultado="k"
+  print("dv=",resultado)
+if(cant==7):
+  b=eval(rut[6])
+  c=eval(rut[5]) 
+  d=eval(rut[4])
+  e=eval(rut[3])
+  f=eval(rut[2])
+  g=eval(rut[1])
+  h=eval(rut[0])
+  b=b*2
+  c=c*3
+  d=d*4
+  e=e*5
+  f=f*6
+  g=g*7
+  h=h*2
+  suma=b+c+d+e+f+g+h
+  divi=suma//11
+  ope=suma-(11*divi)
+  resta=11-ope
+  resultado=resta
+  if(resultado==11):
+    resultado=0
+  if(resultado==10):
+    resultado="k"
+  print("dv=",resultado)

@@ -1,0 +1,7 @@
+a=float(input("Introduzca nota de tareas:"))
+b=float(input("Introduzca nota interrogaciones:"))
+c=float(input("Introduzca nota examen:"))
+d=float(input("Introduzca nota de presentacion:"))
+e=(0.3*a+0.3*b+0.3*c+0.1*d)
+f=round(e,1)
+print(f)
